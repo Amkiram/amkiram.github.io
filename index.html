@@ -1,10 +1,154 @@
 <!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>AMKIRAM</h1>
-  <p>Full circle, baby!</p>
-  <img src="https://c.tenor.com/jYqfbfE5wU4AAAAM/yay-yes.gif" />
-</body>
- 
+  <head>
+    <title>Amki's CSS Style-guide</title>
+    <link style="text/css" rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div>
+      <h1>Clean CSS Style-guide</h1>
+    </div>
+    <div>
+      <ul class="breadcrumb">
+        <li class="anchor"><a href="#colours">Colours</a></li>
+        <li class="anchor"><a href="#fonts">Fonts</a></li>
+        <li class="anchor"><a href="#padding">Padding and Margins</a></li>
+        <li class="anchor"><a href="#buttons">Buttons and Links</a></li>
+        <li class="anchor"><a href="#cssresources">CSS Resources</a></li>
+      </ul>
+    </div>
+    <div> 
+      <h2 id="#colours">Colours</h2>
+      <p>A selection of colours used including their HEX codes and what elements they apply to.</p>
+      <table class="colours">
+        <thead>
+          <tr id="head1">
+            <th>Colour:</th>
+            <th>Hex code:</th>
+            <th>Used for:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="colour1">
+            <td>Midnight ocean</td>
+            <td>#0C2233</td>
+            <td>h1, h2, h3</td>
+          </tr>
+          <tr id="colour2">
+            <td>Charcoal</td>
+            <td>#090909</td>
+            <td>p</td>
+          </tr>
+          <tr id="colour3">
+            <td>Apricot</td>
+            <td>#E75B00</td>
+            <td>CTA backgrounds</td>
+          </tr>
+          <tr id="colour4">
+            <td>Wood Pigeon</td>
+            <td>#BED1D7</td>
+            <td>neutral backgrounds</td>
+          </tr>
+          <tr id="colour5">
+            <td>Last Sunset</td>
+            <td>#E05200</td>
+            <td>primary buttons</td>
+          </tr>
+          <tr id="colour6">
+            <td>Blue slate</td>
+            <td>#2E5573</td>
+            <td>secondary CTAs</td>
+          </tr>
+          <tr id="colour7">
+            <td>After Hours</td>
+            <td>#103755</td>
+            <td>menu links</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <spacer><p> </p></spacer>
+    <div> 
+      <h2 id="fonts">Fonts</h2>
+      <p>A selection of fonts used, including the font-family name, links to the font on Google Fonts, and what font weight and styling to use for different elements.</p>
+      <table class="fonts">
+          <thead>
+            <tr id="head2">
+              <th>Font family:</th>
+              <th>Style and size:</th>
+              <th>Used for:</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="font1">
+              <td>Cantarell</td>
+              <td>700, 42px</td>
+              <td>h1</td>
+            </tr>
+            <tr id="font2">
+              <td>Cantarell</td>
+              <td>700, 36px</td>
+              <td>h2</td>
+            </tr>
+            <tr id="font3">
+            <td>Cantarell</td>
+              <td>700, 32px</td>
+              <td>h3</td>
+            </tr>
+            <tr id="font4">
+            <td>Lato</td>
+              <td>400, 18px</td>
+              <td>thead</td>
+            </tr>
+            <tr id="font5">
+              <td>Lato</td>
+              <td>700, 16px</td>
+              <td>buttons</td>
+            </tr>
+            <tr id="font6">
+              <td>Lato</td>
+              <td>400, 16px</td>
+              <td>p</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    <spacer><p> </p></spacer>
+    <div> 
+      <h2 id="padding">Padding and Margins</h2>
+      <p>Pixels used for padding and margins of various elements, to remain consistent.</p>
+    </div>
+    <spacer><p> </p></spacer>
+    <div> 
+      <h2 id="buttons">Buttons and Links</h2>
+      <p>Specific style-guides for radius, padding and margins, visited/hover/active states, and breadcrumbs.</p>
+    </div>
+    <spacer><p> </p></spacer>
+    <div>
+      <h2 id="cssresources">CSS Resources</h2>
+      <p>A list of links and a brief description of what you can use the site for.</p>
+      <spacer><p> </p></spacer>
+        <a class="buttons" href="https://www.w3schools.com/tags/">W 3 Schools</a>
+        <p>A library of CSS tags, explaining how each element works and giving some examples of structures.</p>
+        <spacer><p> </p></spacer>
+        <a class="buttons" href="https://htmlcolorcodes.com/color-picker/">Color Picker</a>
+        <p>Simple page that lets you select a colour by hue and saturation through drag and drop, then allows you to copy the HEX code or each RGB, HSL or CMYK element.</p>
+        <spacer><p> </p></spacer>
+        <a class="buttons" href="https://fonts.google.com/">Google Fonts</a>
+        <p>A library of free fonts that you can download or link to to style your text.</p>
+        <spacer><p> </p></spacer>
+        <a class="buttons" href="https://stackoverflow.com/questions">Stack Overflow</a>
+        <p>Great resource when you need to turn to a community for styling help.</p>
+        <spacer><p> </p></spacer>
+    </div>
+    <footer>
+      <div>
+        <p>Contact: amki@amkimoors.com</p>
+      </div>
+    </footer>
+  </body>
 </html>
